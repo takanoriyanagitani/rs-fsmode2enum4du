@@ -1,0 +1,11 @@
+ModeForDu DEFINITIONS ::=
+BEGIN
+
+Mode4du ::= ENUMERATED {
+  unspecified (0),
+  directory (1),
+  regular (2),
+  symbolic-link (3)
+}
+
+END
